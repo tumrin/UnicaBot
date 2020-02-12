@@ -1,0 +1,18 @@
+{
+    "name": "murkinabot",
+    "version": "0.1",
+    "description": "Murkinabotti",
+    "main": "web.js",
+    "scripts": {
+        "start": "node bot.js"
+    },
+    "author": "matias kumpulainen, Tuomas Rinne",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.3",
+        "discord.js": "^11.3.2",
+        "express": "latest",
+        "mersenne-twister": "^1.1.0",
+        "request": "^2.88.2",
+        "request-promise": "^4.2.5"
+    }
+}
