@@ -1,6 +1,5 @@
 {
     "name": "murkinabot",
-    "version": "0.1",
     "description": "Murkinabotti",
     "main": "web.js",
     "scripts": {

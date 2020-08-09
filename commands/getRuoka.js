@@ -1,4 +1,4 @@
-const ruokaJono = require("C:/Users/tuoma/Desktop/Botti/tasks/waiter.js");
+const ruokaJono = require("../tasks/waiter");
 const d = new Date();
 const cd = require("../tasks/paivanRuoat.json")
 var pm = cd.pvm;
@@ -6,6 +6,7 @@ var pm = cd.pvm;
 
 module.exports = {
     name: "ruokalista",
+    aliases: ["ruoka"],
     args: false,
     cooldown: 20,
     
