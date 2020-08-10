@@ -23,7 +23,7 @@ for (const file of commandFiles) {
 
 //configs
 const package = require("./package.json");
-const { prefix, name, channel } = require("./config.json");
+const { prefix, name} = require("./config.json");
 const { token } = require("./token.json");
 
 console.log("bot loaded");
@@ -33,6 +33,10 @@ console.log("bot loaded");
 //  -reconnects after disconnecting
 client.on("ready", () => {
     console.log(name + " is now logged in");
+    client.user.setPresence({status:"online", game:{
+        name: "!ruoka",
+        type:"LISTENING"
+    }})
 });
 
 client.login(token);
@@ -41,7 +45,7 @@ client.login(token);
 // triggered when bot receives message
 client.on("message", message => {
     //ignore messages on other channels
-    if (message.channel.name !== channel) return;
+    //if (message.channel.name !== channel) return;
     // ignore non-commands and own messages
     if (!message.content.startsWith(prefix) || message.author.bot) return;
 
