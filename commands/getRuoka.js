@@ -1,7 +1,9 @@
+import {channel, Discord, client} from "../bot.js";
 const ruokaJono = require("../tasks/waiter.js");
 const d = new Date();
 var cd = require("../paivanRuoat.json");
 var pvm = cd[0].pvm;
+const channel = "general"
 
 module.exports = {
   name: "ruokalista",
@@ -27,8 +29,19 @@ module.exports = {
         responseBody += `> ${i + 1}. ${item.ruoat[i]}\n`;
       }
       responseBody += "\n";
+      if(responseBody.includes(["Kievin", "kievin"])){
+            kievinKana(item.ravintola, channel)
+      }
     }
 
     return message.reply(responseBody);
   },
 };
+
+function kievinKana(sijainti, channel){
+    message.channel.send("Kievin kana havaittu",{
+        files:[
+            "../Video/kievinkana.mp4"
+        ]
+    });
+}

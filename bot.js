@@ -96,3 +96,5 @@ setInterval(() => {
     console.error(error);
   }
 }, 1000 * 60 * 60 * 4); // 4 tunnin välein
+const channel = client.channels.get("653482850057715726");
+export {Discord, client, channel};
