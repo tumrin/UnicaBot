@@ -12,6 +12,7 @@ module.exports = {
     paivitaRuoat() {
         console.log("haetaan päivän ruokia...");
         let lista = [];
+        try{
         for (let ravintola of config.ravintolat) {
             lista.push(getFood(ravintola));
         }
@@ -26,6 +27,10 @@ module.exports = {
             .catch(err => {
                 console.log(">>>jotain meni pieleen ruokia päivittäessä");
             });
+        }
+        catch(err){
+            console.log(err);
+        }
     }
 };
 

@@ -88,5 +88,11 @@ client.on("message", message => {
 paivitaRuoat();
 
 setInterval(() => {
+    console.log("Trying to update")
+    try{
     paivitaRuoat();
+    }
+    catch(error){
+        console.error(error)
+    }
 }, 1000 * 60 * 60 * 4); // 4 tunnin välein
