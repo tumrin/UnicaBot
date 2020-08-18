@@ -1,4 +1,4 @@
-import {channel, Discord, client} from "../bot.js";
+
 const ruokaJono = require("../tasks/waiter.js");
 const d = new Date();
 var cd = require("../paivanRuoat.json");
@@ -29,9 +29,8 @@ module.exports = {
         responseBody += `> ${i + 1}. ${item.ruoat[i]}\n`;
       }
       responseBody += "\n";
-      //if(responseBody.includes(["Kievin", "kievin"])){
-          if(true){
-            kievinKana(item.ravintola, channel)
+      if (responseBody.includes("kievin") || responseBody.includes("Kievin")) {
+        kievinKana(message, item.ravintola);
       }
     }
 
@@ -39,10 +38,10 @@ module.exports = {
   },
 };
 
-function kievinKana(sijainti, channel){
-    message.channel.send("Kievin kana havaittu",{
-        files:[
-            "../Video/kievinkana.mp4"
-        ]
-    });
+function kievinKana(message, sijainti) {
+  message.reply(":rotating_light: Kievin kana havaittu ravintolassa: " + sijainti + ":rotating_light:", {
+    files: [
+      "Video/kievinkana.mp4"
+    ]
+  });
 }

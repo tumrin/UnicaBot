@@ -1,33 +1,31 @@
 [
-  {
-    "ravintola": "assarin-ullakko",
-    "ruoat": [
-      "Chi con vegeä* (sis. valkosipulia)",
-      "Kalkkunaa ja vihanneksia kookoskastikkeessa, täysjyvävehnää* (sis. valkosipulia",
-      "EARLY BIRDS; Jauhelihakastike (sis. valkosipulia)",
-      "PÄIVÄN JÄLKIRUOKA; Mansikkarahkaa",
-      "DELI klo 15.00-; Karitsalihapullia, tomaattikastiketta, rigatonipastaa ja parmesanjuustoa"
-    ],
-    "pvm": "18.8.2020"
-  },
-  {
-    "ravintola": "galilei",
-    "ruoat": [
-      "",
-      "Ohra-kaalilaatikkoa *",
-      "Rapeita kalapaloja, tartarkastiketta * ",
-      "Broilerisalaattia"
-    ],
-    "pvm": "18.8.2020"
-  },
-  {
-    "ravintola": "macciavelli",
-    "ruoat": [
-      "Tofu-kasviswokkia,\nHöyrytettyä tummaa riisiä *",
-      "Seitifileetä pinaattikastikkeessa *",
-      "DELI: Riistakäristystä,\nPerunasosetta(pyydä L)",
-      "Marjarahkaa"
-    ],
-    "pvm": "18.8.2020"
-  }
+	{
+		"ravintola": "assarin-ullakko",
+		"ruoat": [
+			"Halloumi-kasvisbolognese-pennevuokaa*",
+			"Sitruunaisia kalapaloja*, höyryperunoita ja tilli-kermaviilikastiketta",
+			"DELI Klo 15:00-;  Broileri-fetapannupizzaa BBQ"
+		],
+		"pvm": "19.8.2020"
+	},
+	{
+		"ravintola": "galilei",
+		"ruoat": [
+			"",
+			"Härkiscurry, kookosriisiä *",
+			"Ruotsalaista pyttipannua",
+			"Aura-leipäjuustosalaattia  *"
+		],
+		"pvm": "19.8.2020"
+	},
+	{
+		"ravintola": "macciavelli",
+		"ruoat": [
+			"Feta-pinaatti-cashewpähkinäpizzaa / minikevätrullia & makeaa chilikastiketta",
+			"Burgundin possupataa, persiljaperunoita",
+			"DELI: BBQ Broilerin filettä, paistettua riisiä",
+			"Kaura-raperperi herkkua"
+		],
+		"pvm": "19.8.2020"
+	}
 ]
