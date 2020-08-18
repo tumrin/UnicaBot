@@ -1,4 +1,4 @@
 {
-    "ravintolat": ["assarin-ullakko", "galilei", "macciavelli"],
-    "tiedosto": "./paivanRuoat.json"
+  "ravintolat": ["assarin-ullakko", "galilei", "macciavelli"],
+  "tiedosto": "./paivanRuoat.json"
 }

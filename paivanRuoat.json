@@ -1,33 +1,33 @@
 [
-	{
-		"ravintola": "assarin-ullakko",
-		"ruoat": [
-			"Chi con vegeä* (sis. valkosipulia)",
-			"Kalkkunaa ja vihanneksia kookoskastikkeessa, täysjyvävehnää* (sis. valkosipulia",
-			"EARLY BIRDS; Jauhelihakastike (sis. valkosipulia)",
-			"PÄIVÄN JÄLKIRUOKA; Mansikkarahkaa",
-			"DELI klo 15.00-; Karitsalihapullia, tomaattikastiketta, rigatonipastaa ja parmesanjuustoa"
-		],
-		"pvm": "18.8.2020"
-	},
-	{
-		"ravintola": "galilei",
-		"ruoat": [
-			"",
-			"Ohra-kaalilaatikkoa *",
-			"Rapeita kalapaloja, tartarkastiketta * ",
-			"Broilerisalaattia"
-		],
-		"pvm": "18.8.2020"
-	},
-	{
-		"ravintola": "macciavelli",
-		"ruoat": [
-			"Tofu-kasviswokkia,\nHöyrytettyä tummaa riisiä *",
-			"Seitifileetä pinaattikastikkeessa *",
-			"DELI: Riistakäristystä,\nPerunasosetta(pyydä L)",
-			"Marjarahkaa"
-		],
-		"pvm": "18.8.2020"
-	}
+  {
+    "ravintola": "assarin-ullakko",
+    "ruoat": [
+      "Chi con vegeä* (sis. valkosipulia)",
+      "Kalkkunaa ja vihanneksia kookoskastikkeessa, täysjyvävehnää* (sis. valkosipulia",
+      "EARLY BIRDS; Jauhelihakastike (sis. valkosipulia)",
+      "PÄIVÄN JÄLKIRUOKA; Mansikkarahkaa",
+      "DELI klo 15.00-; Karitsalihapullia, tomaattikastiketta, rigatonipastaa ja parmesanjuustoa"
+    ],
+    "pvm": "18.8.2020"
+  },
+  {
+    "ravintola": "galilei",
+    "ruoat": [
+      "",
+      "Ohra-kaalilaatikkoa *",
+      "Rapeita kalapaloja, tartarkastiketta * ",
+      "Broilerisalaattia"
+    ],
+    "pvm": "18.8.2020"
+  },
+  {
+    "ravintola": "macciavelli",
+    "ruoat": [
+      "Tofu-kasviswokkia,\nHöyrytettyä tummaa riisiä *",
+      "Seitifileetä pinaattikastikkeessa *",
+      "DELI: Riistakäristystä,\nPerunasosetta(pyydä L)",
+      "Marjarahkaa"
+    ],
+    "pvm": "18.8.2020"
+  }
 ]
