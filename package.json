@@ -1,6 +1,6 @@
 {
-    "name": "murkinabot",
-    "description": "Murkinabotti",
+    "name": "UnicaBot",
+    "description": "Discord bot for posting menus of unica restaurants",
     "main": "web.js",
     "scripts": {
         "start": "node bot.js"
