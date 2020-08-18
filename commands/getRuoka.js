@@ -1,6 +1,8 @@
-const ruokaJono = require("../tasks/waiter");
+const ruokaJono = require("../tasks/waiter.js");
 const d = new Date();
-const cd = require("../tasks/paivanRuoat.json")
+var cd = require("../paivanRuoat.json");
+var pvm = cd[0].pvm;
+
 
 
 module.exports = {
@@ -14,8 +16,8 @@ module.exports = {
     execute(message, args) {
         const data = ruokaJono.annaRuoat();
         let currentDate = `${d.getDate()}.${d.getMonth() + 1}.${d.getFullYear()}`;
-        if (cd.pm !== currentDate) {
-            console.log(cd.pm);
+        if (pvm !== currentDate) {
+            console.log(pvm);
             console.log(currentDate);
             ruokaJono.paivitaRuoat();
         }
