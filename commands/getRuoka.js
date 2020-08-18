@@ -29,7 +29,8 @@ module.exports = {
         responseBody += `> ${i + 1}. ${item.ruoat[i]}\n`;
       }
       responseBody += "\n";
-      if(responseBody.includes(["Kievin", "kievin"])){
+      //if(responseBody.includes(["Kievin", "kievin"])){
+          if(true){
             kievinKana(item.ravintola, channel)
       }
     }
