@@ -2,7 +2,7 @@ const cheerio = require("cheerio");
 const rp = require("request-promise");
 const config = require("./waiter_config.json");
 const fs = require("fs");
-const d = new Date();
+var d = new Date();
 
 module.exports = {
   annaRuoat() {
@@ -31,6 +31,7 @@ module.exports = {
 };
 
 function getFood(nimi) {
+  d = new Date();
   return new Promise((resolve, reject) => {
     const options = {
       uri: `https://www.unica.fi/fi/ravintolat/${nimi}/`,

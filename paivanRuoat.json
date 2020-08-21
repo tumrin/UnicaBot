@@ -2,30 +2,32 @@
 	{
 		"ravintola": "assarin-ullakko",
 		"ruoat": [
-			"Halloumi-kasvisbolognese-pennevuokaa*",
-			"Sitruunaisia kalapaloja*, höyryperunoita ja tilli-kermaviilikastiketta",
-			"DELI Klo 15:00-;  Broileri-fetapannupizzaa BBQ"
+			"Soija-kauratäytteisiä paprikoita*",
+			"Kasvismusakaa*",
+			"Kebabhampurilainen & tulista kebabkastiketta(pyydä G kebabkastike riisillä)",
+			"LINE 2;  Kesäkeittoa* LG & lämmin riisipiirakka",
+			"Klo 15.00-; Halloumi-porkkanahummuspizzaa"
 		],
-		"pvm": "19.8.2020"
+		"pvm": "21.8.2020"
 	},
 	{
 		"ravintola": "galilei",
 		"ruoat": [
 			"",
-			"Härkiscurry, kookosriisiä *",
-			"Ruotsalaista pyttipannua",
-			"Aura-leipäjuustosalaattia  *"
+			"Tahu goreng Indonesia *",
+			"Pulled pork-ananaspizza",
+			"Kylmäsavukirjolohisalaattia '"
 		],
-		"pvm": "19.8.2020"
+		"pvm": "21.8.2020"
 	},
 	{
 		"ravintola": "macciavelli",
 		"ruoat": [
-			"Feta-pinaatti-cashewpähkinäpizzaa / minikevätrullia & makeaa chilikastiketta",
-			"Burgundin possupataa, persiljaperunoita",
-			"DELI: BBQ Broilerin filettä, paistettua riisiä",
-			"Kaura-raperperi herkkua"
+			"Soijapapu ratatouillea",
+			"Yrttimaustettu broilerin koipireisi, majoneesikastiketta",
+			"DELI: Metsästäjän leike",
+			"Marjapiiras ja vaniljakastike"
 		],
-		"pvm": "19.8.2020"
+		"pvm": "21.8.2020"
 	}
 ]
