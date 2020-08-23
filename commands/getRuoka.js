@@ -16,9 +16,9 @@ module.exports = {
   execute(message, args) {
     const data = ruokaJono.annaRuoat();
     let currentDate = `${d.getDate()}.${d.getMonth() + 1}.${d.getFullYear()}`;
+    console.log(pvm);
+    console.log(currentDate);
     if (pvm !== currentDate) {
-      console.log(pvm);
-      console.log(currentDate);
       ruokaJono.paivitaRuoat();
     }
     let responseBody = `\n__**Päivän ruokalista:**__ (${currentDate})\n`;

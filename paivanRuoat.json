@@ -1,33 +1,22 @@
 [
 	{
 		"ravintola": "assarin-ullakko",
-		"ruoat": [
-			"Soija-kauratäytteisiä paprikoita*",
-			"Kasvismusakaa*",
-			"Kebabhampurilainen & tulista kebabkastiketta(pyydä G kebabkastike riisillä)",
-			"LINE 2;  Kesäkeittoa* LG & lämmin riisipiirakka",
-			"Klo 15.00-; Halloumi-porkkanahummuspizzaa"
-		],
-		"pvm": "21.8.2020"
+		"ruoat": [],
+		"pvm": "23.8.2020"
 	},
 	{
 		"ravintola": "galilei",
-		"ruoat": [
-			"",
-			"Tahu goreng Indonesia *",
-			"Pulled pork-ananaspizza",
-			"Kylmäsavukirjolohisalaattia '"
-		],
-		"pvm": "21.8.2020"
+		"ruoat": [],
+		"pvm": "23.8.2020"
 	},
 	{
 		"ravintola": "macciavelli",
-		"ruoat": [
-			"Soijapapu ratatouillea",
-			"Yrttimaustettu broilerin koipireisi, majoneesikastiketta",
-			"DELI: Metsästäjän leike",
-			"Marjapiiras ja vaniljakastike"
-		],
-		"pvm": "21.8.2020"
+		"ruoat": [],
+		"pvm": "23.8.2020"
+	},
+	{
+		"ravintola": "tottisalmi",
+		"ruoat": [],
+		"pvm": "23.8.2020"
 	}
 ]

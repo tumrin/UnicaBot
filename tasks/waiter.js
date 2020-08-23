@@ -31,7 +31,6 @@ module.exports = {
 };
 
 function getFood(nimi) {
-  d = new Date();
   return new Promise((resolve, reject) => {
     const options = {
       uri: `https://www.unica.fi/fi/ravintolat/${nimi}/`,
