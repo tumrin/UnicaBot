@@ -1,22 +1,43 @@
 [
 	{
 		"ravintola": "assarin-ullakko",
-		"ruoat": [],
-		"pvm": "23.8.2020"
+		"ruoat": [
+			"Kasvis-kookoscurrya*",
+			"Broileria teriyakikastikkeessa*",
+			"DELI klo 15:00 -; Metsästäjänleipä"
+		],
+		"pvm": "24.8.2020"
 	},
 	{
 		"ravintola": "galilei",
-		"ruoat": [],
-		"pvm": "23.8.2020"
+		"ruoat": [
+			"",
+			"Porkkanaohukaiset, puolukkahillo",
+			"Kievin kanaa, riisi,  currykermaviili",
+			"Katkarapusalaatti"
+		],
+		"pvm": "24.8.2020"
 	},
 	{
 		"ravintola": "macciavelli",
-		"ruoat": [],
-		"pvm": "23.8.2020"
+		"ruoat": [
+			"Maissi-kvinoapihvejä,\nKurkkuraitaa",
+			"Broileri-pekonikastiketta, pastaa",
+			"Jauhelihatäytteiset TACOt",
+			"DELI: Teriyaki kirjolohta, jasmine riisiä",
+			"Mansikkasmoothie"
+		],
+		"pvm": "24.8.2020"
 	},
 	{
 		"ravintola": "tottisalmi",
-		"ruoat": [],
-		"pvm": "23.8.2020"
+		"ruoat": [
+			"",
+			"Kasvispyörykät*, tzatziki, perunoita",
+			"Broileri-pekonikastike, tumma riisi",
+			"Tonnikala-kasvistäyte tortilloille, tartarmajoneesi",
+			"Paneroitua kampelaa, makeat porkkanat, tzatziki, perunoita"
+		],
+		"pvm": "24.8.2020"
 	}
 ]

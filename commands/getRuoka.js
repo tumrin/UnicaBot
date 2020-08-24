@@ -26,20 +26,22 @@ module.exports = {
       responseBody += `\n**${item.ravintola}**\n`;
       item.ruoat = item.ruoat.filter((value) => value !== ""); //tyhjennä tyhjät
       for (let i = 0; i < item.ruoat.length; i++) {
-        responseBody += `> ${i + 1}. ${item.ruoat[i]}\n`;
+        if (item.ruoat[i].includes("kievin") || item.ruoat[i].includes("Kievin")) {
+          responseBody += `:rotating_light: ${i + 1}. ${item.ruoat[i]}:rotating_light:\n`;
+          kievinKana(message, item.ravintola);
+        }
+        else{
+          responseBody += `> ${i + 1}. ${item.ruoat[i]}\n`;
+        }
       }
       responseBody += "\n";
-      if (responseBody.includes("kievin") || responseBody.includes("Kievin")) {
-        kievinKana(message, item.ravintola);
-      }
     }
-
     return message.reply(responseBody);
   },
 };
 
 function kievinKana(message, sijainti) {
-  message.reply(":rotating_light: Kievin kana havaittu ravintolassa: " + sijainti + ":rotating_light:", {
+  message.reply(":rotating_light: Kievin kana havaittu ravintolassa: "+sijainti+":rotating_light:", {
     files: [
       "Video/kievinkana.mp4"
     ]
