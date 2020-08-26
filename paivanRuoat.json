@@ -2,42 +2,42 @@
 	{
 		"ravintola": "assarin-ullakko",
 		"ruoat": [
-			"Kasvis-kookoscurrya*",
-			"Broileria teriyakikastikkeessa*",
-			"DELI klo 15:00 -; Metsästäjänleipä"
+			"Kukkakaali-punajuurigratiinia*",
+			"Broilerinugetteja, currymajoneesia, höyryriisiä",
+			"KLO 15-; Kebablihawokkia*"
 		],
-		"pvm": "24.8.2020"
+		"pvm": "25.8.2020"
 	},
 	{
 		"ravintola": "galilei",
 		"ruoat": [
 			"",
-			"Porkkanaohukaiset, puolukkahillo",
-			"Kievin kanaa, riisi,  currykermaviili",
-			"Katkarapusalaatti"
+			"Kikherne-bataattipata, tumma riisi*",
+			"Makkarakastiketta, höyryperunoita ",
+			"Makkarakastiketta, höyryperunoita ",
+			"Porsaanleike, béarnaise kastike",
+			"Fetajuustosalaatti "
 		],
-		"pvm": "24.8.2020"
+		"pvm": "25.8.2020"
 	},
 	{
 		"ravintola": "macciavelli",
 		"ruoat": [
-			"Maissi-kvinoapihvejä,\nKurkkuraitaa",
-			"Broileri-pekonikastiketta, pastaa",
-			"Jauhelihatäytteiset TACOt",
-			"DELI: Teriyaki kirjolohta, jasmine riisiä",
-			"Mansikkasmoothie"
+			"Quorn-curry-kasviskastiketta, pastaa",
+			"Kirjolohikastiketta, pastaa",
+			"DELI: Kalkkunaa kookos-currykastikkeessa",
+			"Paistetut banaanit & vaniljakastiketta"
 		],
-		"pvm": "24.8.2020"
+		"pvm": "25.8.2020"
 	},
 	{
 		"ravintola": "tottisalmi",
 		"ruoat": [
-			"",
-			"Kasvispyörykät*, tzatziki, perunoita",
-			"Broileri-pekonikastike, tumma riisi",
-			"Tonnikala-kasvistäyte tortilloille, tartarmajoneesi",
-			"Paneroitua kampelaa, makeat porkkanat, tzatziki, perunoita"
+			"Ratatouille soijapavuilla*",
+			"Paahdettu broilerinkoipi, tumma riisi, currymajoneesi",
+			"Kirjolohikiusaus",
+			"Paneroitu porsaanleike, paistettu ananasrengas, lohkoperunat, choronkastike"
 		],
-		"pvm": "24.8.2020"
+		"pvm": "25.8.2020"
 	}
 ]

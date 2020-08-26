@@ -21,7 +21,8 @@ module.exports = {
     if (pvm !== currentDate) {
       ruokaJono.paivitaRuoat();
     }
-    let responseBody = `\n__**Päivän ruokalista:**__ (${currentDate})\n`;
+    let newDate = new Date();
+    let responseBody = `\n__**Päivän ruokalista:**__ (${newDate.getDate()}.${newDate.getMonth() + 1}.${newDate.getFullYear()})\n`;
     for (let item of data) {
       responseBody += `\n**${item.ravintola}**\n`;
       item.ruoat = item.ruoat.filter((value) => value !== ""); //tyhjennä tyhjät
