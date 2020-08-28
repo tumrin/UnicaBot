@@ -36,7 +36,7 @@ module.exports = {
           kievinKana(message, item.ravintola);
         }
         else{
-          responseBody += `> ${i + 1}. ${item.ruoat[i].charAt(0).toUpperCase()+item.ruoat[i].slice(1)}\n`;
+          responseBody += `> ${i + 1}. ${item.ruoat[i]}\n`;
         }
       }
       responseBody += "\n";
