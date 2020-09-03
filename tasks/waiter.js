@@ -29,7 +29,6 @@ module.exports = {
     }
   },
 };
-
 function getFood(nimi) {
   return new Promise((resolve, reject) => {
     const options = {

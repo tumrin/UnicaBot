@@ -1,41 +1,22 @@
 [
 	{
 		"ravintola": "assarin-ullakko",
-		"ruoat": [
-			"Feta-pinaatti-cashewpähkinäpizzaa (sis.pähkinää) Pyydä vegaanipizza ",
-			"Juuressosekeittoa* & chili-popcornia",
-			"Riista-sipulipataa*, puolukkahilloa ja perunamuusia"
-		],
-		"pvm": "28.8.2020"
+		"ruoat": [],
+		"pvm": "4.9.2020"
 	},
 	{
 		"ravintola": "galilei",
-		"ruoat": [
-			"Talon kasvispihvit, perunat kermaviilikastike, PYYDÄ VEG,  ja G *",
-			"Italialainen prosciutto- oliivi- mozzarella pizza",
-			"Maalaissalaatti *"
-		],
-		"pvm": "28.8.2020"
+		"ruoat": [],
+		"pvm": "4.9.2020"
 	},
 	{
 		"ravintola": "macciavelli",
-		"ruoat": [
-			"Kasvispizzaa",
-			"Makkara stroganoff, perunamuhennosta",
-			"DELI: Broilerin rintaa, tuorejuusto-yrtti-Couscousta",
-			"Marjamousse-suklaakakku "
-		],
-		"pvm": "28.8.2020"
+		"ruoat": [],
+		"pvm": "4.9.2020"
 	},
 	{
 		"ravintola": "tottisalmi",
-		"ruoat": [
-			"Quorn-perunapannua*, Pyydä Vegaanilounas",
-			"Pannupizzaa kinkku-ananas-aurajuusto täytteellä",
-			"Kreikkalaista jauheliha-pastavuokaa*",
-			"Broilerifilettä gruusialaisittain, höyry riisiä, paahdettuja kasviksia",
-			"Mustaherukkarahkaa"
-		],
-		"pvm": "28.8.2020"
+		"ruoat": [],
+		"pvm": "4.9.2020"
 	}
 ]
